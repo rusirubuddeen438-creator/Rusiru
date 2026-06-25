@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact and reservation page for Ember & Spice restaurant.">
+  <title>Contact & Reservation | Ember & Spice</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body data-page="contact">
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="identity-strip"><div class="container"><span>Owner: N.G.R.Buddhim</span><span>Enrollment: UWU/ICT/24/030</span><span>Uva Wellassa University of Sri Lanka</span></div></div>
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">E</span><span>Ember & Spice</span></a>
+      <div class="nav-links"><a data-nav="home" href="index.html">Home</a><a data-nav="menu" href="menu.html">Menu</a><a data-nav="gallery" href="gallery.html">Gallery</a><a data-nav="about" href="about.html">About Me</a><a data-nav="contact" href="contact.html">Contact</a></div>
+      <div class="nav-actions"><button class="icon-btn" data-theme-toggle type="button" aria-label="Switch theme">☀</button><button class="icon-btn menu-toggle" data-menu-toggle type="button" aria-label="Open navigation" aria-expanded="false">☰</button></div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1578474846511-04ba529f0b88?auto=format&fit=crop&w=2000&q=90')"></div>
+      <div class="container"><div class="breadcrumb reveal"><a href="index.html">Home</a> / <span>Contact</span></div><h1 class="display-title reveal delay-1">Reserve your <span class="text-gold">table.</span></h1><p class="section-copy reveal delay-2">Use this interactive form to demonstrate front-end validation and user feedback.</p></div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <aside class="contact-panel glass-card reveal from-left">
+          <span class="eyebrow">Contact details</span>
+          <h2 class="section-title" style="font-size:clamp(2.5rem,5vw,4rem)">Let us make your visit special.</h2>
+          <p class="section-copy">This is a demonstration contact section for the academic website project. Replace the sample restaurant contact information with real details before publishing publicly.</p>
+          <div class="contact-list">
+            <div class="contact-item"><strong>Website owner</strong>N.G.R.Buddhim</div>
+            <div class="contact-item"><strong>Enrollment number</strong>UWU/ICT/24/030</div>
+            <div class="contact-item"><strong>University</strong>Uva Wellassa University of Sri Lanka</div>
+            <div class="contact-item"><strong>Opening hours</strong>Monday–Sunday: 10:00 AM–10:30 PM</div>
+          </div>
+        </aside>
+
+        <section class="form-panel glass-card reveal from-right">
+          <span class="eyebrow">Reservation form</span>
+          <h2 class="section-title" style="font-size:clamp(2.5rem,5vw,4rem)">Book a dining experience.</h2>
+          <form id="reservationForm">
+            <div class="form-grid">
+              <div class="form-group"><label for="name">Full name</label><input class="form-control" id="name" name="name" type="text" placeholder="Your name" required></div>
+              <div class="form-group"><label for="email">Email address</label><input class="form-control" id="email" name="email" type="email" placeholder="name@example.com" required></div>
+              <div class="form-group"><label for="phone">Phone number</label><input class="form-control" id="phone" name="phone" type="tel" placeholder="07X XXX XXXX" required></div>
+              <div class="form-group"><label for="guests">Number of guests</label><select class="form-control" id="guests" name="guests" required><option value="">Choose</option><option>1 guest</option><option>2 guests</option><option>3 guests</option><option>4 guests</option><option>5 guests</option><option>6+ guests</option></select></div>
+              <div class="form-group"><label for="date">Reservation date</label><input class="form-control" id="date" name="date" type="date" required></div>
+              <div class="form-group"><label for="time">Preferred time</label><input class="form-control" id="time" name="time" type="time" required></div>
+              <div class="form-group full"><label for="dish">Preferred food or drink</label><select class="form-control" id="dish" name="dish"><option>No preference</option><option>Basmathi fried rice</option><option>Bites</option><option>Samba fried rice</option><option>Fruit juice</option><option>Kottu</option><option>Milkshake</option><option>Pasta Spaghetti</option><option>Mojito</option></select></div>
+              <div class="form-group full"><label for="message">Special request</label><textarea class="form-control" id="message" name="message" placeholder="Birthday setup, dietary request or other note"></textarea></div>
+              <div class="form-group full"><button class="btn btn-primary" type="submit">Send reservation request →</button></div>
+            </div>
+          </form>
+        </section>
+      </div>
+    </section>
+
+    <section class="section section-sm">
+      <div class="container map-card reveal">
+        <div><span class="eyebrow">Location placeholder</span><h2 class="section-title">Uva Wellassa University of Sri Lanka</h2><p style="color:rgba(255,255,255,.76);max-width:620px;margin-inline:auto">This visual map area can later be replaced with a Google Maps iframe for the actual restaurant location.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a class="brand" href="index.html"><span class="brand-mark">E</span><span>Ember & Spice</span></a><p class="section-copy">A dynamic luxury restaurant website designed and developed as a front-end project using HTML, CSS and JavaScript.</p></div>
+      <div><h3 class="footer-title">Pages</h3><div class="footer-links"><a href="index.html">Home</a><a href="menu.html">Menu</a><a href="gallery.html">Gallery</a><a href="about.html">About Me</a><a href="contact.html">Contact</a></div></div>
+      <div><h3 class="footer-title">Website details</h3><div class="footer-details"><span><strong>Owner:</strong> N.G.R.Buddhim</span><span><strong>Enrollment:</strong> UWU/ICT/24/030</span><span><strong>University:</strong> Uva Wellassa University of Sri Lanka</span></div></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span data-year></span> Ember & Spice. Academic front-end project.</span><span>Created by N.G.R.Buddhim</span></div>
+  </footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

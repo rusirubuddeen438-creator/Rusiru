@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Food and restaurant gallery for Ember & Spice.">
+  <title>Gallery | Ember & Spice</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body data-page="gallery">
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="identity-strip"><div class="container"><span>Owner: N.G.R.Buddhim</span><span>Enrollment: UWU/ICT/24/030</span><span>Uva Wellassa University of Sri Lanka</span></div></div>
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">E</span><span>Ember & Spice</span></a>
+      <div class="nav-links"><a data-nav="home" href="index.html">Home</a><a data-nav="menu" href="menu.html">Menu</a><a data-nav="gallery" href="gallery.html">Gallery</a><a data-nav="about" href="about.html">About Me</a><a data-nav="contact" href="contact.html">Contact</a></div>
+      <div class="nav-actions"><button class="icon-btn" data-theme-toggle type="button" aria-label="Switch theme">☀</button><button class="icon-btn menu-toggle" data-menu-toggle type="button" aria-label="Open navigation" aria-expanded="false">☰</button></div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=2000&q=90')"></div>
+      <div class="container"><div class="breadcrumb reveal"><a href="index.html">Home</a> / <span>Gallery</span></div><h1 class="display-title reveal delay-1">A feast for <span class="text-gold">the eyes.</span></h1><p class="section-copy reveal delay-2">Click any photograph to open the JavaScript lightbox viewer.</p></div>
+    </section>
+
+    <section class="section">
+      <div class="container center reveal"><span class="eyebrow">Visual experience</span><h2 class="section-title">Food, colour and atmosphere.</h2><p class="section-copy">A masonry-style gallery that changes naturally across screen sizes.</p></div>
+      <div class="container gallery-grid" style="margin-top:44px">
+        <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=1100&q=88" alt="Fried rice presentation"></figure>
+        <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1100&q=88" alt="Elegant restaurant interior"></figure>
+        <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1100&q=88" alt="Colourful mojito drinks"></figure>
+        <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&w=1100&q=88" alt="Fresh spaghetti dish"></figure>
+        <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1100&q=88" alt="Table full of dishes"></figure>
+        <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=1100&q=88" alt="Creamy milkshake"></figure>
+        <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1100&q=88" alt="Asian style plated meal"></figure>
+        <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1100&q=88" alt="Fine dining plate"></figure>
+        <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=1100&q=88" alt="Fresh fruit juice"></figure>
+      </div>
+    </section>
+
+    <section class="section section-sm"><div class="container cta-panel reveal"><span class="eyebrow">Taste the gallery</span><h2 class="section-title">Move from inspiration to reservation.</h2><p class="section-copy" style="color:rgba(255,255,255,.75)">Choose your food, select a date and send a reservation request.</p><a class="btn btn-primary" href="contact.html">Reserve now</a></div></section>
+  </main>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Image preview"><button class="icon-btn lightbox-close" data-lightbox-close type="button" aria-label="Close image">✕</button><img src="" alt=""></div>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a class="brand" href="index.html"><span class="brand-mark">E</span><span>Ember & Spice</span></a><p class="section-copy">A dynamic luxury restaurant website designed and developed as a front-end project using HTML, CSS and JavaScript.</p></div>
+      <div><h3 class="footer-title">Pages</h3><div class="footer-links"><a href="index.html">Home</a><a href="menu.html">Menu</a><a href="gallery.html">Gallery</a><a href="about.html">About Me</a><a href="contact.html">Contact</a></div></div>
+      <div><h3 class="footer-title">Website details</h3><div class="footer-details"><span><strong>Owner:</strong> N.G.R.Buddhim</span><span><strong>Enrollment:</strong> UWU/ICT/24/030</span><span><strong>University:</strong> Uva Wellassa University of Sri Lanka</span></div></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span data-year></span> Ember & Spice. Academic front-end project.</span><span>Created by N.G.R.Buddhim</span></div>
+  </footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

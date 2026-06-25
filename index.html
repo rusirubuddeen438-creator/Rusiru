@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A dynamic luxury restaurant website created by N.G.R. Buddhim, UWU/ICT/24/030, Uva Wellassa University of Sri Lanka.">
+  <title>THILINGO | Luxury Restaurant</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body data-page="home">
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="identity-strip">
+      <div class="container">
+        <span>Owner: N.G.R.Buddhin</span>
+        <span>Enrollment: UWU/ICT/24/030</span>
+        <span>Uva Wellassa University of Sri Lanka</span>
+      </div>
+    </div>
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">T</span><span>THILINGO RESTAURANT</span></a>
+      <div class="nav-links">
+        <a data-nav="home" href="index.html">Home</a>
+        <a data-nav="menu" href="menu.html">Menu</a>
+        <a data-nav="gallery" href="gallery.html">Gallery</a>
+        <a data-nav="about" href="about.html">About Me</a>
+        <a data-nav="contact" href="contact.html">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <button class="icon-btn" data-theme-toggle type="button" aria-label="Switch theme">☀</button>
+        <button class="icon-btn menu-toggle" data-menu-toggle type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=2000&q=90')"></div>
+      <div class="container hero-content">
+        <span class="eyebrow reveal">A modern Sri Lankan dining experience</span>
+        <h1 class="display-title reveal delay-1">Flavour made to <span class="text-gold">feel unforgettable.</span></h1>
+        <p class="section-copy reveal delay-2">Ember & Spice combines comforting local favourites, vibrant drinks and elegant presentation inside a warm, cinematic restaurant experience.</p>
+        <div class="hero-actions reveal delay-3">
+          <a class="btn btn-primary" href="menu.html">Explore the menu <span>→</span></a>
+          <a class="btn btn-outline" href="about.html">Meet the website builder</a>
+        </div>
+        <div class="hero-meta reveal delay-3">
+          <div><strong>08</strong><span>Signature food and drink choices</span></div>
+          <div><strong>Fresh</strong><span>Prepared with colourful ingredients</span></div>
+          <div><strong>Dynamic</strong><span>Responsive scrolling and interactions</span></div>
+        </div>
+      </div>
+      <div class="scroll-cue" aria-hidden="true"></div>
+    </section>
+
+    <section class="section">
+      <div class="container grid-2">
+        <div class="reveal from-left">
+          <span class="eyebrow">Our story</span>
+          <h2 class="section-title">A refined restaurant concept with a warm local soul.</h2>
+          <p class="section-copy">The design is inspired by premium restaurant websites, using strong food photography, elegant typography, rich shadows and smooth scroll animation. Every section is responsive, so it looks polished on phones, tablets and desktop screens.</p>
+          <p class="section-copy">From Basmathi fried rice to refreshing Mojitos, the menu is organised to feel simple, attractive and easy to explore.</p>
+          <a class="btn btn-primary" href="about.html">Open About Me</a>
+        </div>
+        <div class="image-card reveal from-right">
+          <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1400&q=88" alt="Elegant restaurant dining area">
+          <div class="floating-note"><strong>Designed by Buddhim</strong>A five-page front-end website built with HTML, CSS and JavaScript.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-sm">
+      <div class="container center reveal">
+        <span class="eyebrow">Popular choices</span>
+        <h2 class="section-title">Made for every craving.</h2>
+        <p class="section-copy">A small preview of the full food and beverage collection available on the menu page.</p>
+      </div>
+      <div class="container grid-4" style="margin-top:42px">
+        <article class="food-card reveal">
+          <div class="food-image"><img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=900&q=86" alt="Basmathi fried rice"><span class="food-badge">Rice</span></div>
+          <div class="food-content"><h3>Basmathi Fried Rice</h3><p>Fragrant long-grain rice tossed with vegetables, herbs and house seasoning.</p><div class="food-bottom"><span class="price">LKR 1,250</span><a class="mini-link" href="menu.html">View menu →</a></div></div>
+        </article>
+        <article class="food-card reveal delay-1">
+          <div class="food-image"><img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&w=900&q=86" alt="Pasta spaghetti"><span class="food-badge">Pasta</span></div>
+          <div class="food-content"><h3>Pasta Spaghetti</h3><p>Silky spaghetti coated in a rich tomato-herb sauce with fresh garnish.</p><div class="food-bottom"><span class="price">LKR 1,400</span><a class="mini-link" href="menu.html">View menu →</a></div></div>
+        </article>
+        <article class="food-card reveal delay-2">
+          <div class="food-image"><img src="https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=900&q=86" alt="Creamy milkshake"><span class="food-badge">Drink</span></div>
+          <div class="food-content"><h3>Milkshake</h3><p>A thick, cold and creamy shake available in several classic flavours.</p><div class="food-bottom"><span class="price">LKR 850</span><a class="mini-link" href="menu.html">View menu →</a></div></div>
+        </article>
+        <article class="food-card reveal delay-3">
+          <div class="food-image"><img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=900&q=86" alt="Refreshing mojito"><span class="food-badge">Mocktail</span></div>
+          <div class="food-content"><h3>Mojito</h3><p>Fresh lime, mint and sparkling soda served over ice for a crisp finish.</p><div class="food-bottom"><span class="price">LKR 750</span><a class="mini-link" href="menu.html">View menu →</a></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="stats-band section-sm">
+      <div class="container grid-4">
+        <div class="stat reveal"><span class="stat-number" data-count="5" data-suffix="+">0</span><span class="stat-label">Website pages</span></div>
+        <div class="stat reveal delay-1"><span class="stat-number" data-count="8" data-suffix="">0</span><span class="stat-label">Menu categories</span></div>
+        <div class="stat reveal delay-2"><span class="stat-number" data-count="100" data-suffix="%">0</span><span class="stat-label">Responsive design</span></div>
+        <div class="stat reveal delay-3"><span class="stat-number" data-count="2" data-suffix="">0</span><span class="stat-label">Colour themes</span></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container center reveal">
+        <span class="eyebrow">Guest impressions</span>
+        <h2 class="section-title">A dining atmosphere people remember.</h2>
+      </div>
+      <div class="container grid-3" style="margin-top:42px">
+        <article class="quote-card glass-card reveal"><div class="stars">★★★★★</div><blockquote>“The dark luxury styling makes every meal look premium and the page feels smooth while scrolling.”</blockquote><div class="quote-author">— Design feedback</div></article>
+        <article class="quote-card glass-card reveal delay-1"><div class="stars">★★★★★</div><blockquote>“The menu is clear, attractive and easy to filter, especially on a mobile screen.”</blockquote><div class="quote-author">— Mobile visitor</div></article>
+        <article class="quote-card glass-card reveal delay-2"><div class="stars">★★★★★</div><blockquote>“The light and dark modes give the restaurant website two completely different moods.”</blockquote><div class="quote-author">— User experience review</div></article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cta-panel reveal">
+        <span class="eyebrow">Reserve your moment</span>
+        <h2 class="section-title">Good food tastes even better when shared.</h2>
+        <p class="section-copy" style="color:rgba(255,255,255,.74)">Use the reservation form to demonstrate validation, interaction and a polished customer journey.</p>
+        <a class="btn btn-primary" href="contact.html">Book a table</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a class="brand" href="index.html"><span class="brand-mark">T</span><span>THILINGO RESTAURANT</span></a><p class="section-copy">A dynamic luxury restaurant website designed and developed as a front-end project using HTML, CSS and JavaScript.</p></div>
+      <div><h3 class="footer-title">Pages</h3><div class="footer-links"><a href="index.html">Home</a><a href="menu.html">Menu</a><a href="gallery.html">Gallery</a><a href="about.html">About Me</a><a href="contact.html">Contact</a></div></div>
+      <div><h3 class="footer-title">Website details</h3><div class="footer-details"><span><strong>Owner:</strong> N.G.R.Buddhim</span><span><strong>Enrollment:</strong> UWU/ICT/24/030</span><span><strong>University:</strong> Uva Wellassa University of Sri Lanka</span></div></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span data-year></span> THILINGO RESTAURANT. Academic front-end project.</span><span>Created by N.G.R.Buddhim</span></div>
+  </footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
